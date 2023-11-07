@@ -10,8 +10,8 @@ with st.sidebar:
     st.title('🤗💬 HugChat')
     if ('EMAIL' in st.secrets) and ('PASS' in st.secrets):
         st.success('HuggingFace Login credentials already provided!', icon='✅')
-        hf_email = st.secrets['EMAIL']
-        hf_pass = st.secrets['PASS']
+        hf_email = "krsujithkumar1994@gmail.com"
+        hf_pass = "Rushi@2003"
     else:
         hf_email = st.text_input('Enter E-mail:', type='password')
         hf_pass = st.text_input('Enter password:', type='password')
